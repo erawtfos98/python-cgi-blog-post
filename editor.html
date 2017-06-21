@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple but fancy blog made with python/cgi for TH-Brandenburg Betriebssysteme/Webcomputing Sem. 2">
+    <meta name="author" content="Franziska Schwarz">
+    <link rel="icon" href="assets/ico/favicon.ico">
+    <title>MyB10g</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+    <script src="js/ie-emulation-modes-warning.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">MyB10g</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <a class="btn btn-danger" href="editor.html?logout=True" role="button">Log Out</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="editor.html?editor=True">Editor</a></li>
+        <li role="presentation"><a href="editor.html?settings=True">Posts</a></li>
+      </ul>
+      <form action="editor.html" method="GET" role="form">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Titel:</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon1" name="title" value="" placeholder="Titel deines Beitrages" required>
+            <span class="input-group-addon" id="basic-addon2">Datum:</span>
+            <input type="date" class="form-control" aria-describedby="basic-addon2" name="date" value="" required>
+            <span class="input-group-addon" id="basic-addon3">Hintergrundfarbe:</span>
+            <select name="bg-color" class="form-control" aria-describedby="basic-addon3">
+              <option value="random" selected> random </option>
+              <option value="bg-yellow"> yellow </option>
+              <option value="bg-red"> red </option>
+              <option value="bg-lightgrey"> lightgrey </option>
+              <option value="bg-lightblue"> lightblue </option>
+              <option value="bg-green"> green </option>
+              <option value="bg-winered"> winered </option>
+              <option value="bg-pink"> pink </option>
+              <option value="bg-purple"> purple </option>
+              <option value="bg-darkgreen"> darkgreen </option>
+              <option value="bg-violet"> violet </option>
+              <option value="bg-navy"> navy </option>
+              <option value="bg-steelblue"> steelblue </option>
+              <option value="bg-turqoise"> turqoise </option>
+              <option value="bg-springgreen"> springgreen </option>
+              <option value="bg-honeydew"> honeydew </option>
+              <option value="bg-olivegreen"> olivegreen </option>
+              <option value="bg-khaki"> khaki </option>
+              <option value="bg-gold"> gold </option>
+              <option value="bg-orange"> orange </option>
+              <option value="bg-fire"> fire </option>
+              <option value="bg-salmon"> salmon </option>
+              <option value="bg-black"> black </option>
+            </select>
+            <span class="input-group-btn">
+              <button class="btn btn-success" type="submit">Submit!</button>
+            </span>
+          </div>
+        </div>
+        <div class="form-horizontal">
+          <div class="form-group">
+            <textarea class="form-control" rows="30" name="input" placeholder="And then..." required></textarea>
+          </div>
+        </div> 
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
