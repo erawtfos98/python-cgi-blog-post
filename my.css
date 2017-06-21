@@ -1,0 +1,146 @@
+body {
+  padding-top: 50px;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 150;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+#settings {
+  color: black;
+}
+
+.jumbotron {
+  background-image: url("../assets/jpg/1.jpg");
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  height: -webkit-calc(100vh - 72px);
+  height: -moz-calc(100vh - 72px);
+  height: calc(100vh - 72px);
+}
+
+.row {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 30px black;
+}
+
+.input-group {
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 2px;
+}
+
+.nav-tabs {
+  box-shadow: 0 2 10px black;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.form-horizontal {
+	box-shadow: 0 0 30px black;
+	margin-left: 65px;
+	margin-right: 65px;
+}
+
+.bg-yellow {
+  background-color: #fdcc52;
+}
+
+.bg-red{
+	background-color: red;
+}
+
+.bg-lightgrey{
+	background-color: lightgrey;
+}
+
+.bg-lightblue{
+	background-color: lightblue;
+}
+.bg-green{
+  background-color: #9bea00;
+}
+.bg-winered{
+  background-color: #8b0000;
+}
+.bg-pink{
+  background-color: #da70d6;
+}
+.bg-purple{
+  background-color: #8a2be2;
+}
+.bg-darkgreen{
+  background-color: #5c987b;
+}
+.bg-violet{
+  background-color: #bf3eff;
+}
+.bg-navy{
+  background-color: #000080;
+}
+.bg-steelblue{
+  background-color: #4f94cd;
+}
+.bg-turqoise{
+  background-color: #00ced1;
+}
+.bg-springgreen{
+  background-color: #00cd66;
+}
+.bg-honeydew{
+  background-color: #c1cdc1;
+}
+.bg-olivegreen{
+  background-color: #6e8b3d;
+}
+.bg-khaki{
+  background-color: #cdc673;
+}
+.bg-gold{
+  background-color: #eec900;
+}
+.bg-orange{
+  background-color: #ffa500;
+}
+.bg-fire{
+  background-color: #cd2626;
+}
+.bg-salmon{
+  background-color: #C67171;
+}
+.bg-black{
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
